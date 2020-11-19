@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# To scrap web images, input the url in brackets then run below rake command.
 
-Things you may want to cover:
+  rake image_scraper:scrape_url['https://www.mockbank.com/bulletin/']
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# To find image urls, go to this directory /scraper/log and open the newly created file in this folder.
